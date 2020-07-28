@@ -1,0 +1,23 @@
+﻿2020-07-28 11:02:51.845 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\BankBrix2807\BrixBankServer\Transaction.Messaging\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-28 11:02:51.984 INFO  Auditing processed messages to 'audit'
+2020-07-28 11:02:52.071 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-07-28 11:05:01.059 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\BankBrix2807\BrixBankServer\Transaction.Messaging\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-28 11:05:01.220 INFO  Auditing processed messages to 'audit'
+2020-07-28 11:05:01.308 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-07-28 11:08:53.009 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\BankBrix2807\BrixBankServer\Transaction.Messaging\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-28 11:08:53.202 INFO  Auditing processed messages to 'audit'
+2020-07-28 11:08:53.304 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-07-28 11:14:27.539 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\BankBrix2807\BrixBankServer\Transaction.Messaging\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-28 11:14:27.778 INFO  Auditing processed messages to 'audit'
+2020-07-28 11:14:27.944 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-07-28 11:15:38.188 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\BankBrix2807\BrixBankServer\Transaction.Messaging\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-28 11:15:38.628 INFO  Auditing processed messages to 'audit'
+2020-07-28 11:15:38.868 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-07-28 11:15:39.609 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\BankBrix2807\BrixBankServer\Transaction.Messaging\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-28 11:15:39.730 INFO  Executing saga creation scripts:
+C:\Users\RLemberger\Documents\Brix\BankBrix2807\BrixBankServer\Transaction.Messaging\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\TransactionSagaHandler_Create.sql

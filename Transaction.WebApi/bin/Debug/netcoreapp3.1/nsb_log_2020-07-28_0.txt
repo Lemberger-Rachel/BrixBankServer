@@ -1,0 +1,4 @@
+﻿2020-07-28 10:55:50.981 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\BankBrix2807\BrixBankServer\Transaction.WebApi\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-28 10:55:51.078 INFO  Auditing processed messages to 'audit'
+2020-07-28 10:55:51.110 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25

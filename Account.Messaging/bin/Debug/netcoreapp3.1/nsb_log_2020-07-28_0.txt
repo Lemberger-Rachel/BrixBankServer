@@ -1,0 +1,44 @@
+﻿2020-07-28 11:05:00.401 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\BankBrix2807\BrixBankServer\Account.Messaging\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-28 11:05:00.572 INFO  Auditing processed messages to 'audit'
+2020-07-28 11:05:00.666 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-07-28 11:05:01.144 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\BankBrix2807\BrixBankServer\Account.Messaging\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-28 11:08:43.614 WARN  'Account Publish' connection shutdown: AMQP close-reason, initiated by Library, code=541, text='Unexpected Exception', classId=0, methodId=0, cause=System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.IO.BufferedStream.ReadByteSlow()
+   at System.IO.BufferedStream.ReadByte()
+   at RabbitMQ.Client.Impl.InboundFrame.ReadFrom(Stream reader)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ReadFrame()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoopIteration()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoop()
+2020-07-28 11:08:43.614 WARN  'Account MessagePump' connection shutdown: AMQP close-reason, initiated by Library, code=541, text='Unexpected Exception', classId=0, methodId=0, cause=System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.IO.BufferedStream.ReadByteSlow()
+   at System.IO.BufferedStream.ReadByte()
+   at RabbitMQ.Client.Impl.InboundFrame.ReadFrom(Stream reader)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ReadFrame()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoopIteration()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoop()
+2020-07-28 11:08:43.621 INFO  Attempting to reconnect in 10 seconds.
+2020-07-28 11:08:43.624 WARN  The circuit breaker for 'Account MessagePump' is now in the armed state
+2020-07-28 11:08:52.319 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\BankBrix2807\BrixBankServer\Account.Messaging\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-28 11:08:52.451 INFO  Auditing processed messages to 'audit'
+2020-07-28 11:08:52.535 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-07-28 11:08:52.972 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\BankBrix2807\BrixBankServer\Account.Messaging\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-28 11:14:21.075 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\BankBrix2807\BrixBankServer\Account.Messaging\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-28 11:14:25.029 INFO  Auditing processed messages to 'audit'
+2020-07-28 11:14:27.020 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-07-28 11:14:27.689 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\BankBrix2807\BrixBankServer\Account.Messaging\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-28 11:15:35.224 INFO  Logging to 'C:\Users\RLemberger\Documents\Brix\BankBrix2807\BrixBankServer\Account.Messaging\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-28 11:15:35.577 INFO  Auditing processed messages to 'audit'
+2020-07-28 11:15:37.434 INFO  Selected active license from C:\Users\RLemberger\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-25
+2020-07-28 11:15:38.617 INFO  Executing 'C:\Users\RLemberger\Documents\Brix\BankBrix2807\BrixBankServer\Account.Messaging\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
